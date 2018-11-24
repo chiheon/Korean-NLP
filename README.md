@@ -240,3 +240,4 @@ cmd창에서 저장한 공간으로 이동한다
  : Konlpy와 Soynlp의 장점을 살려 기존의 단점을 보완(Konlpy기반으로 Soynlp의 score기능을 추가)
 - __아주대학교 201420998 최순원__<br>
 : Konlpy와 Soynlp의 장단점 및 성능 분석
+  Installation Guide LiNE 
