@@ -236,10 +236,7 @@ cmd창에서 저장한 공간으로 이동한다
 
 
 ## - Developer
-- __201321026 김치헌__<br>
+- __아주대학교 201321026 김치헌__<br>
  : Konlpy와 Soynlp의 장점을 살려 기존의 단점을 보완(Konlpy기반으로 Soynlp의 score기능을 추가)
-- __201420998 최순원__<br>
+- __아주대학교 201420998 최순원__<br>
 : Konlpy와 Soynlp의 장단점 및 성능 분석
-- __201620882 최민정__<br>
- : Konlpy와 Soynlp의 installation의 guildline을 제공
-
