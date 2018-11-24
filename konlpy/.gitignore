@@ -1,0 +1,12 @@
+*.classpath
+*.coverage
+*.DS_Store
+*.egg-info/
+*.log
+*.project
+*.pyc
+*.settings/
+.cache
+build/
+dist/
+docs/_build/
