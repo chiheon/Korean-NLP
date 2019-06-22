@@ -16,7 +16,7 @@
 <br>
 <br>
 
-![캡처](/uploads/9efabf1fd576695b8add1a7561f73d44/캡처.JPG)
+![캡처](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/9efabf1fd576695b8add1a7561f73d44/%EC%BA%A1%EC%B2%98.JPG)
 
 # 설치방법
 
