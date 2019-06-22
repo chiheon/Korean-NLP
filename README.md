@@ -125,6 +125,7 @@ cmd창에서 저장한 공간으로 이동한다
 > - __Kkma(꼬꼬마)__
 > - __Twitter(트위터)__
 > - __Komoran(코모란)__
+> <br>
 > ![image3](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/df742259cb751f11af9e2f4843e1b23b/image3.JPG)
 
 > #### 아버지가방에들어가신다.
@@ -144,7 +145,7 @@ cmd창에서 저장한 공간으로 이동한다
 
 > ## Soynlp
 > - __MaxScoreTokenizer__
-> - __RegexTokenizer__
+> - __RegexTokenizer__ <br><br>
 > ![image4](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/16e1efc4b7b768679fcd9de4957d7623/image4.JPG)
 
 >> Soynlp는 기본적으로 띄워쓰기 기반 토큰화를 합니다. 동시에 tokenizer들은 각각의 기능을 가지고 있습니다.<br>
