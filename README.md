@@ -106,51 +106,51 @@ cmd창에서 저장한 공간으로 이동한다
 > <br>
 > #### morphs()
 >> __morphs__ 함수는 학습되어 있는 형태소 단위로 토큰화를 하지만 품사 태깅은 이루어지지 않습니다.
->> ![morphs](/uploads/656d318e1bd0ca58bb4687ef5cb07dd2/morphs.JPG)
+>> ![morphs](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/656d318e1bd0ca58bb4687ef5cb07dd2/morphs.JPG)
 
 > #### nouns()
 >> __nouns__ 함수는 학습되어 있는 명사 단위로 토큰화를 합니다.
->> ![nouns](/uploads/273751557e443ffb726887d95a0629ad/nouns.JPG)
+>> ![nouns](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/273751557e443ffb726887d95a0629ad/nouns.JPG)
 
 > #### pos()
 >> __pos__ 함수는 학습되어 있는 형태소 단위로 토큰화를 하며 품사 태깅도 같이 이루어지고 있습니다.
->> ![pos](/uploads/1377d79ed22e478ab55683d27046ee1f/pos.JPG)
+>> ![pos](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/1377d79ed22e478ab55683d27046ee1f/pos.JPG)
 
 > #### sentences()
 >> __sentences__ 함수는 Kkma(꼬꼬마)에서만 제공하는 함수로 문장 단위로 토큰화를 합니다.
->> ![sentences](/uploads/6a0fab97f3fc8330328bc8fce88ad9d5/sentences.JPG)
+>> ![sentences](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/6a0fab97f3fc8330328bc8fce88ad9d5/sentences.JPG)
 
 # 2. 성능 분석
 > ## Konlpy
 > - __Kkma(꼬꼬마)__
 > - __Twitter(트위터)__
 > - __Komoran(코모란)__
-> ![image3](/uploads/df742259cb751f11af9e2f4843e1b23b/image3.JPG)
+> ![image3](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/df742259cb751f11af9e2f4843e1b23b/image3.JPG)
 
 > #### 아버지가방에들어가신다.
 >> "아버지가방에들어가신다."에 대하여 태거들마다 상이하게 품사 태깅을 하고 있습니다. <br>
 하지만 제대로 토큰화하는 태거는 하나도 없는 점을 미루어 보면 한국어 자연어 처리에 대한 어려움을 볼 수 있습니다.<br>
 태거를 직접 사용해보고 사용하는 환경에서 가장 좋은 성능을 보이는 태거를 선택하는 것이 좋습니다. 
 > <br><br>
->> ![image1](/uploads/92d82257fd200064ea9203fae1663fb9/image1.png)
+>> ![image1](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/92d82257fd200064ea9203fae1663fb9/image1.png)
 
 
 > #### 머리를 감기다.
 >> "머리를 감기다."라는 문장에 대해 "감기"를 동사로 인식하는 것이 바람직합니다. <br>
 코모란은 동사로 인식하나 트위터와 꼬꼬마는 그렇지 못하는 모습을 볼 수 있습니다.<br>
 > <br>
->> ![image2](/uploads/61ce19d94001f08176c8c9d39d1d3913/image2.png)
+>> ![image2](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/61ce19d94001f08176c8c9d39d1d3913/image2.png)
 
 
 > ## Soynlp
 > - __MaxScoreTokenizer__
 > - __RegexTokenizer__
-> ![image4](/uploads/16e1efc4b7b768679fcd9de4957d7623/image4.JPG)
+> ![image4](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/16e1efc4b7b768679fcd9de4957d7623/image4.JPG)
 
 >> Soynlp는 기본적으로 띄워쓰기 기반 토큰화를 합니다. 동시에 tokenizer들은 각각의 기능을 가지고 있습니다.<br>
 > MaxScoreTokenizer는 scores 기능을 가집니다. scores란 토큰화를 원하는 단어에 대하여 점수를 매김으로써 우선적으로 추출을 할 수 있는 기능입니다.<br>
 > RegexTokenizer는 문장에서 규칙성을 띄는 부분이 있다면 우선적으로 추출을 할 수 있습니다.<br><br>
->> ![image5](/uploads/f86c645247ee3d7f3783cac0a1950f10/image5.png)
+>> ![image5](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/f86c645247ee3d7f3783cac0a1950f10/image5.png)
 
 # 3. Konlpy(Twitter) vs Soynlp(MaxScoreTokenizer)
 > <br>
@@ -167,7 +167,7 @@ cmd창에서 저장한 공간으로 이동한다
 >  __띄어쓰기와 무관한 토큰화 Konlpy__<br><br>
 
 > ### - Result
->> ![캡처](/uploads/11c1af44fe7b2c44775e3511b5cb3cc5/캡처.JPG)
+>> ![캡처](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/11c1af44fe7b2c44775e3511b5cb3cc5/%EC%BA%A1%EC%B2%98.JPG)
 
 
 # 5. How to use Korean NLP
