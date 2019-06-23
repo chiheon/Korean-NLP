@@ -141,6 +141,7 @@ cmd창에서 저장한 공간으로 이동한다
 코모란은 동사로 인식하나 트위터와 꼬꼬마는 그렇지 못하는 모습을 볼 수 있습니다.<br>
 > <br>
 >> ![image2](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/61ce19d94001f08176c8c9d39d1d3913/image2.png)
+>> ![image1](http://git.ajou.ac.kr/open-source-2018-spring/python_Korean_NLP/uploads/92d82257fd200064ea9203fae1663fb9/image1.png)
 
 
 > ## Soynlp
